@@ -34,7 +34,7 @@ public class SessionManager {
     }
 
     /**
-     * 세션 죠회
+     * 세션 조회
      */
     public Object getSession(HttpServletRequest request) {
         Cookie sessionCookie = findCookie(request, SESSION_COOKIE_NAME);
