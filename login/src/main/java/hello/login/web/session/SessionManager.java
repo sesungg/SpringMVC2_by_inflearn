@@ -42,7 +42,7 @@ public class SessionManager {
             return null;
         }
 
-        return sessionStore.get(sessionCookie);
+        return sessionStore.get(sessionCookie.getValue());
     }
 
     /**
